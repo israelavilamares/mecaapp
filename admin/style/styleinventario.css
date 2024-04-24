@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to Left, #394046, #81bedc,#04a2f1);
+}
+/* linea o cinta de parte superiro*/
+.linea
+{
+    top: 0; /* Para colocar la línea en la parte superior de la barra */
+    left: 0; /* Para que la línea comience desde el extremo izquierdo */
+    width: 100%; /* Ancho de la línea */
+    height: 5.5em;
+    position: block;
+    background-color: #414141;
+}
+/*------la barra de arriba-------------------------------------------------*/
+
+.Cinta-nombre{
+    text-align: center;
+    color: #dbdbde;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+
+/*-------------------TABLA---------------------------*/
+.table-inv
+{
+    margin: auto;
+    border: 2px groove black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 2px groove #000000;
+}
+
+.fila-table-inv{
+font-size: 1.3em;
+text-align: center;
+font-weight: 500;
+font-family:'Times New Roman', Times, serif;
+}
+.table-head-inv
+{
+    color: white;
+    font-size: x-large;
+    background-color: rgb(53, 52, 52);
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*-------------------------BOTONES DE INVENTARIO-----------*/
+.btn-agregar-inv{
+
+    color: #000000;
+    font-weight: 200;
+    font-size: medium;
+    background: #8ef1a2;
+    padding:2px;
+    margin-right: 2px;
+}
+
+.btn-edit-inv{
+    color: #000000;
+    font-weight: 200;
+    font-size: medium;
+    background: #8ef1a2;
+    padding:2px;
+    margin-right: 2px;
+}
+.btn-eliminar{
+    color: #000000;
+    font-weight: 200;
+    font-size: medium;
+    background: #f1857b;
+    padding:2px;
+    margin-right: 2px;
+}
+
+/* ---------------------Estilos para el modal --------------------*/
+.modal {
+    display: none; /* Por defecto, el modal está oculto */
+    position: fixed; /* Posición fija para superponerse sobre el contenido */
+    z-index: 1; /* Prioridad de superposición */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5); /* Fondo oscuro semitransparente */
+  }
+  
+  /* Estilos para el contenido del modal */
+  .modal-contenido {
+    background-color: #fbf4dd; /* Color de fondo del modal */
+    margin: 15% auto; /* Centrar verticalmente */
+    margin-top: 6%;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 15%;
+    width: 40%; /* Ancho del modal */
+    height: 80%;
+  }
+  
+  /* Estilos para el botón de cerrar el modal */
+  .modal-cerrar {
+    color: #000000;
+    float: right;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  
+  .modal-cerrar:hover,
+  .modal-cerrar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.conteinerForm
+{
+    background-color: #b6b4b4;
+    border-radius: 15%;
+    width: 100%;
+    height: 98%;
+
+}
+.form-invent
+{
+    display: block;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+}
+.tito-form
+{
+    font-family: fantasy;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.entradas
+{   
+
+    display:inline-flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 4em;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 1em;
+}
+
+
+
+.btn-form-inv
+{
+        padding: 10px; 
+        position: relative;
+        left: 50%;
+        right: 50%;
+        top: 80%;
+        background-color:burlywood;
+}
+
+.btn-form-inv:hover
+{
+        border-color: #48ee69;
+}
+
+.btn-agregar-inv
+{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    position: relative;
+    left: 5%;
+
+    
+}
+
+.btn-house
+{
+    padding: 1px;
+    position: absolute;
+    right: 10%;
+    top: 20px;
+    background-color: #b1b1b2;
+    color: #000000;
+    font-weight:bold;
+    font-size: medium;
+
+}
+
+.my-custom-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    
+}
+
+.form-control{
+    width: 70%;
+    padding: 8px;
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.my-custom-form label
+{
+    font-size: 3.5vh;
+    margin-top: 5px ;
+    font-weight: 700;
+}
+
+/*-------------- BARRA DE BUSCQUEDA ---------------------------*/
+.search-barra
+{
+    position: relative;
+    top: 0px;
+    margin-left: 3vh;
+    width: 90vh;
+    height: 50px;
+    font-size: 3vh;
+    padding-left: 40px; /* Ajusta según el ancho del icono */
+
+}
+
+
+.space-search{
+
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+

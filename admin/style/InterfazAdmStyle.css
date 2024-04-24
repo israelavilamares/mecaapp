@@ -1,0 +1,286 @@
+/*----------------------------- defualt margen--------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: linear-gradient(to Left, #394046, #81bedc,#04a2f1);
+}
+/*-----------------------------cinta linea---------------------------------------*/
+
+.linea
+{
+    margin-top: 0px;
+    min-width: 100%;
+    height: 5em;
+
+    background-color: #414141;
+}
+/*------la barra de arriba-------------------------------------------------*/
+
+.Cinta-nombre{
+    text-align: center;
+    color: #dbdbde;
+    font-family: cursive;
+
+}
+
+/*menu de hambuerguesa-------------------------------------------------*/
+
+.barra{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1%;
+    height: 1%;
+    position: fixed;
+    transition: all;
+    z-index:1;
+
+}
+.barra ul{
+    padding: 0px;
+    text-align: center;
+    
+}
+.barra li
+{
+    transition: .2s all;
+}
+
+.barra a{
+    
+    text-decoration: none;
+    list-style: none;
+    transition: .3s all;
+    font-size: 0px;
+    padding: 0px;
+}
+/*---------------------------boton-------------*/
+.barra input
+{
+    display: none;
+    transition: .3s all;
+
+}
+
+.barra h2{
+    text-align: center;
+    color: #fff;
+    padding: 7px;
+    padding-bottom: 7px;
+    font-size:0px;
+}
+.barra img{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.barra:hover
+{
+    width: 15%;
+    height: 100%;
+    background-color: #414141;
+}
+.barra:hover h2{
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+.barra:hover p{
+    font-size: 20px;
+    color: #ccc;
+    display: block;
+    padding: 20px;
+}
+.barra:hover a{
+    font-size: 20px;
+    color: #ccc;
+    display: block;
+    padding: 20px;
+
+}
+
+.barra:hover input
+{
+    margin:auto auto auto;
+    margin-top: 0.7em;
+    font-size: 18px;
+    text-align: center;
+    background: transparent;
+    color: #dbdbde;
+    display: block;
+    padding: 0.4em;
+   
+}
+
+.barra:hover img{
+    height: 0px;
+}
+
+.barra:hover li{
+    border-top:1px solid black;
+    width: 100%;
+
+}
+
+/*----------------------------LOGIN PARA EL SUPER USUARIO----------------*/
+
+
+.entradas
+{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 50px;
+    padding: 0.2em;
+    border-radius: 10%;
+    background-color: rgb(86, 81, 79);
+    color: #ffffff;
+
+}
+
+
+.Boton-regrister
+{
+    
+    position: fixed;
+    font-family: cursive;
+    border-radius: 15%;
+    padding: 5px;
+    background-color: rgb(86, 81, 79);
+}
+
+.btnLogSup{
+    position: fixed;
+    width: 30vw;
+    height: 30vh;
+    margin-right: 0;
+    margin-top: 9%;
+/*    margin-left: 40%;*/
+    left: 60%;
+    font-family: cursive;
+    font-size:0.8em;
+    padding: 10px;
+    background-color: rgb(86, 81, 79);
+}
+
+
+/*-------------------------MODAL DE USUARIOS-----------------*/
+
+/*
+.my-modal-body-user table
+{
+       
+    margin-right: 70%; /* Centra la tabla horizontalmente */
+   /* width: 100%;  O ajusta el ancho según sea necesario */
+
+/*}*/
+
+/*
+.my-modal-body-user {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Optional: Vertically center if needed 
+  }*/
+/*  
+.my-modal-body-user table {
+    margin-right: 50%;  Remove previous right margin 
+    width: 100%;  Adjust width as needed 
+}*/
+
+.modal-title
+{
+ font-size: xx-large;
+ font-family: fantasy;
+}
+
+.modal-content {
+    background-color: #9ac8f7; /* Color de fondo */
+    color: #343a40; /* Color del texto */
+   
+}
+.tname{
+
+    font-size: 1.2em;
+}
+.tcell
+{
+    font-size: 1.1em;
+    
+
+}
+
+/*-------------------------------TERMINA EL MODALA DE USUARIO--------------------*/
+
+
+
+
+
+
+/*----------------------------pie de pagina------------------*/
+
+
+footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(81, 83, 85);
+}
+      
+
+
+ .contenedor-footer{
+     display: flex;
+     width: 70%;
+     justify-content: space-evenly;
+     margin: auto;
+     padding-bottom: 10px;
+     border-bottom: 1px solid #ccc;  
+ }
+ 
+ .content-foo{
+     text-align: center;
+ }
+ 
+ .content-foo h4{
+     text-align: center;
+     color: #fff;
+     border-bottom: 3px solid #642a73;
+     padding-bottom: 5px;
+     margin-bottom: 5px;
+ }
+ 
+.content-foo p{
+     color: #ccc;
+ }
+.titulo-final
+{
+    font-size:large;
+}
+
+.marco-circular {
+    position:absolute;
+    left: 90%;
+    top: 3%;
+    width: 50px; /* ajusta el tamaño del marco según sea necesario */
+    height: 50px; /* ajusta el tamaño del marco según sea necesario */
+    border-radius: 50%; /* Esto hace que el borde del div sea circular */
+    overflow: hidden; /* Esto oculta cualquier parte de la imagen que esté fuera del círculo */
+  }
+  
+  .marco-circular img {
+    width: 100%; /* Esto hace que la imagen llene todo el círculo */
+    height: auto; /* Esto mantiene la relación de aspecto de la imagen */
+    display: block; /* Esto asegura que la imagen esté centrada verticalmente */
+  }
+  
+.csschart{
+position:fixed;
+left: 10%;
+top: 25%;
+height: 37vh;
+width: 37vw;
+}

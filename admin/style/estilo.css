@@ -1,0 +1,283 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #FFC0CB; 
+}
+
+th, td {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #FFC0CB; 
+}
+
+
+th {
+    background-color: #FF69B4; 
+    color: white;
+}
+
+.agregar-button {
+    background-color: #e52b97; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.agregar-button:hover {
+    background-color: #FF69B4; 
+}
+
+/*formulario cliente*/
+
+#formulario {
+    max-width: 300px;
+    margin: 60 auto;
+}
+
+#formularioEditar {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #1c0bd7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #474775;
+}
+
+
+.success-message {
+    color: green;
+}
+
+form {
+    background-color: #6c77b4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #474775;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1986e0;
+}
+
+/**/
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    background-color: #6c77b4;
+    padding: 38px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 20px;
+   
+}
+
+/*menú cliente*/
+
+.item-menu {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.item-menu a {
+   text-decoration: none; 
+   padding: 8px 12px; 
+   border: 1px solid #191176; 
+   border-radius: 5px; 
+   color: #ffffff; 
+   background-color: #474775; 
+}
+
+   .item-menu a:hover {
+       background-color: #1986e0; 
+   }
+
+   .label-titulo {
+    font-family: Trebuchet MS, Helvetica, sans-serif; 
+    color: #191176; 
+    font-size: 35px; 
+   
+}
+
+
+/**/
+
+.fondo {
+   background-color: #9595e6;
+}
+
+.imagenempleado {
+   max-width: 20vh;
+   height: auto;
+}
+
+/**/
+.body-index {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.logo {
+    max-width: 80px;
+    height: auto;
+}
+
+.contenedorPrincipal {
+   display: flex;
+    padding: 30px;
+}
+
+.contenedorIzquierdo {
+    width: 50%;
+    height: 100%;
+}
+
+.contenedorDerecho {
+    width: 50%;
+    height: 70vh;
+    padding-top: 185px;
+}
+
+.contenedorLogo {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.contenedorLogo img  {
+    max-height: 400px;
+    width: auto;
+    border-radius: 30px;
+}
+
+.contenedorBotones {
+    height: 50%;
+
+}
+
+.contenedorBotones button {
+    max-height: 70px;
+    width: 300px;
+    text-decoration: none; 
+   padding: 8px 12px; 
+   border: 1px solid #191176; 
+   border-radius: 5px; 
+   color: #ffffff; 
+   background-color: #474775; 
+   font-size: 40px; 
+   font-family: Trebuchet MS, Helvetica, sans-serif; 
+}
+
+.contenedorBotones button:hover{
+    background-color: #1986e0; 
+}
+
+.textoCentrado h1 {
+    text-align: center;
+    font-family: Trebuchet MS, Helvetica, sans-serif; 
+    color: #191176; 
+    font-size: 60px; 
+}
+
+.link-login{
+    color: white;
+
+}
+
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+}
+
+/* Estilos para el contenedor del footer */
+.contenedor-footer {
+    max-width: 1200px; /* Ancho máximo del footer */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    justify-content: space-around; /* Alinea los elementos de forma equidistante */
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+/* Estilos para los elementos de contenido del footer */
+.content-foo {
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.content-foo h4 {
+    margin-bottom: 10px; /* Añade un poco de espacio debajo del título */
+}
+
+.titulo-final {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 20px; /* Añade un poco de espacio encima del título final */
+}
+.btnHomeBack{
+
+    color: #000000;
+    background-color: #6969ed;
+    padding: 1em;  
+    border-radius: 15%;
+}

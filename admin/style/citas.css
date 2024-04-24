@@ -1,0 +1,162 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #FFC0CB; 
+}
+
+th, td {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #FFC0CB; 
+}
+
+
+th {
+    background-color: #FF69B4; 
+    color: white;
+}
+
+.agregar-button {
+    background-color: #e52b97; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.agregar-button:hover {
+    background-color: #FF69B4; 
+}
+
+/**/
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    background-color: #6c77b4;
+    padding: 38px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 20px;
+   
+}
+
+/*menú cliente*/
+
+.item-menu {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.item-menu a {
+   text-decoration: none; 
+   padding: 8px 12px; 
+   border: 1px solid #191176; 
+   border-radius: 5px; 
+   color: #ffffff; 
+   background-color: #474775; 
+}
+
+   .item-menu a:hover {
+       background-color: #1986e0; 
+   }
+
+   .label-titulo {
+    font-family: Trebuchet MS, Helvetica, sans-serif; 
+    color: #191176; 
+    font-size: 35px; 
+   
+}
+
+
+/**/
+
+.fondo {
+   background-color: #9595e6;
+}
+
+.imagenempleado {
+   max-width: 20vh;
+   height: auto;
+}
+
+/**/
+.body-index {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.logo {
+    max-width: 80px;
+    height: auto;
+}
+
+.contenedorPrincipal {
+   display: flex;
+    padding: 30px;
+}
+
+.contenedorIzquierdo {
+    width: 50%;
+    height: 100%;
+}
+
+.contenedorDerecho {
+    width: 50%;
+    height: 70vh;
+    padding-top: 185px;
+}
+
+.contenedorLogo {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.contenedorLogo img  {
+    max-height: 400px;
+    width: auto;
+    border-radius: 30px;
+}
+
+.contenedorBotones {
+    height: 50%;
+
+}
+
+.contenedorBotones button {
+    max-height: 70px;
+    width: 300px;
+    text-decoration: none; 
+   padding: 8px 12px; 
+   border: 1px solid #191176; 
+   border-radius: 5px; 
+   color: #ffffff; 
+   background-color: #474775; 
+   font-size: 40px; 
+   font-family: Trebuchet MS, Helvetica, sans-serif; 
+}
+
+.contenedorBotones button:hover{
+    background-color: #1986e0; 
+}
+
+.textoCentrado h1 {
+    text-align: center;
+    font-family: Trebuchet MS, Helvetica, sans-serif; 
+    color: #191176; 
+    font-size: 60px; 
+}
+

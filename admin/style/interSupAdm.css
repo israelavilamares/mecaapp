@@ -1,0 +1,202 @@
+
+body{
+    background: linear-gradient(to Left, #394046, #81bedc,#04a2f1);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*                    AQUI ESTA LOS ESTILOS DE formulario                */
+
+.form-Registro
+{   
+    margin-left:25%;
+    width: 50%;
+    border: 1px groove black;
+    border-radius: 3%;
+
+}
+.form-Registro h3
+{
+    text-align: center;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+.box-text
+{
+    color: #000000;
+    font-size: 2.5dvb;
+    padding: 1dvb;
+    background: linear-gradient(to Left, #394046, #81bedc,#04a2f1);
+}
+::placeholder
+{
+    color: #000;
+    font-weight: 600;
+}
+.Boton-regrister
+{
+    padding: 1dvb;
+    color: #030303;
+    background-color: #81bedc;
+}
+/*--------------------- AQUI ESTA LOS ESTILOS DE TABLA                 */
+.columnas-table{
+
+    color: white;
+    font-size: x-large;
+    background-color: rgb(53, 52, 52);
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.table-title
+{
+    font-size: 3em;
+    color: #1b1818;
+    text-align: center;
+    font-weight: 500;
+    font-family: fantasy;
+
+
+}
+.table-filas
+{
+font-size: x-large;
+text-align: center;
+font-weight: 600;
+font-family:'Times New Roman', Times, serif;
+}
+
+/*---------------------BOTON DE CERRAR SESION--------------------------*/
+.bto-cerrar{
+    
+    padding: 0.5em;
+    background-color: #4e4a4a;
+    color: #000;
+    font-weight: bold;
+    border-color: #000;
+    border-style: groove;
+    margin-left: 3%;
+    margin-top: -3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    }
+
+/*-----------------------------cinta linea---------------------------------------*/
+.linea
+{
+    margin-top: 0px;
+    min-width: 100%;
+    height: 7em;
+    background-color: #414141;
+}
+/*------la barra de arriba-------------------------------------------------*/
+
+.Cinta-nombre{
+    text-align: center;
+    color: #000000;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.btn-AgregarAdmin{
+margin-top: 3%;
+margin-left: 3%;
+color: #000;
+font-weight:bold;
+background-color: #4e4a4a;
+padding: 2vb;
+font-size: 1.3em;
+}
+
+
+/*----------------FOOTER EL PIE -------------*/
+
+
+footer {
+    position: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(81, 83, 85);
+}
+  
+
+
+.contenedor-footer{
+ display: flex;
+ width: 70%;
+ justify-content: space-evenly;
+ margin: auto;
+ margin-top: 10%;
+ padding-bottom: 5px;
+ border-bottom: 1px solid #ccc;  
+}
+
+.content-foo{
+ text-align: center;
+}
+
+.content-foo h4{
+ text-align: center;
+ color: #fff;
+ border-bottom: 3px solid #642a73;
+ padding-bottom: 5px;
+ margin-bottom: 5px;
+}
+
+.content-foo p{
+ color: #ccc;
+}
+.titulo-final
+{
+font-size:large;
+}
+
+
+
+
+.btn-super-adm
+{
+    position: absolute;
+    left: 80%;
+    top: 5vh;
+    padding: 8px;
+    color: #000;
+    background-color: #5d5555;
+    font-weight: 700;
+    font-size: 2.2ex;
+}
+
+
+/*             STYLE DE FORM DE EDITAR*/
+
+
+
+
+
+/*
+.my-custom-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+   /* justify-content: center;  Centra verticalmente 
+    
+}
+
+.my-custom-form label
+{
+    font-size: 3.5vh;
+    margin-top: 5px ;
+    font-weight: 700;
+}
+
+
+.form-control{
+    width: 70%;
+    padding: 8px;
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/

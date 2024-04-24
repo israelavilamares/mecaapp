@@ -1,0 +1,168 @@
+.all{
+    background-color: rgb(112, 109, 109);
+
+}
+.maincontainer {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Estilos específicos para dispositivos grandes */
+@media screen and (min-width: 1024px) {
+    /* Agrega estilos para pantallas grandes */
+}
+
+/* Estilos específicos para dispositivos medianos */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    /* Agrega estilos para pantallas medianas */
+}
+
+/* Estilos específicos para dispositivos pequeños */
+@media screen and (max-width: 767px) {
+    /* Agrega estilos para pantallas pequeñas */
+}
+
+.container-carousel {
+    display: block;
+    padding: 50px;
+    width: 70%; /* Puedes ajustar el ancho del carrusel según tus necesidades */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+    position: relative;
+    top: 10%;
+    
+    
+}
+
+/* Estilos de la barra de navegación */
+.navbar0 {
+    background-color: #333; /* Color de fondo de la barra */
+    overflow: hidden; /* Para que los elementos floten correctamente */
+}
+
+.navbar0 a {
+    float: left; /* Hace que los elementos floten a la izquierda */
+    display: block; /* Hace que los elementos sean bloques */
+    color: white; /* Color del texto */
+    font-size: 1.5em;
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 20px 20px; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    text-decoration: none; /* Quita la subraya de los enlaces */
+}
+
+.navbar0 a:hover {
+    background-color: #ddd; /* Cambia el color de fondo al pasar el ratón */
+    color: black; /* Cambia el color del texto al pasar el ratón */
+}
+
+
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav .subnav-content {
+    display: none;
+    position: absolute;
+    background-color: #504f4f;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+.subnav-content a {
+    float: none;
+    color: black;
+    padding: 20px 28px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+
+.inicio-box-big{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(200, 178, 244);
+    display: flex; /* Usamos flexbox para alinear verticalmente */
+    justify-content: center; /* Alineamos horizontalmente */
+    align-items: center; /* Alineamos verticalmente */
+}
+
+.acerca-box-big{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(200, 178, 244);
+    display: flex; /* Usamos flexbox para alinear verticalmente */
+    justify-content: center; /* Alineamos horizontalmente */
+    align-items: center; /* Alineamos verticalmente */
+}
+.text-box{
+    
+    text-align: justify;
+    padding: 3em;
+    background-color: rgb(163, 116, 168);
+    max-width: 80%;
+}
+
+.Servicios-box-big {
+    margin-bottom: 80px; /* Ajusta el valor según sea necesario para dejar espacio para el footer */
+    background-color: rgb(200, 178, 244);
+    width: 100vw;
+    height: 100vh;
+    display: flex; /* Usamos flexbox para alinear verticalmente */
+    justify-content: center; /* Alineamos horizontalmente */
+    align-items: center; /* Alineamos verticalmente */
+}
+
+
+
+p{
+    font-size:1.3em;
+}
+
+li{
+    font-size:1.3em;
+}
+/*----------------FOOTER EL PIE -------------*/
+/* Estilos para el footer */
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+}
+
+/* Estilos para el contenedor del footer */
+.contenedor-footer {
+    max-width: 1200px; /* Ancho máximo del footer */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    justify-content: space-around; /* Alinea los elementos de forma equidistante */
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+/* Estilos para los elementos de contenido del footer */
+.content-foo {
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.content-foo h4 {
+    margin-bottom: 10px; /* Añade un poco de espacio debajo del título */
+}
+
+.titulo-final {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 20px; /* Añade un poco de espacio encima del título final */
+}
+.cssh3{
+    text-decoration: none;
+    color: black;
+}

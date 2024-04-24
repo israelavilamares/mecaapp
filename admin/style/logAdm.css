@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, rgb(117, 49, 142) 0%, #567af0 100%);
+
+}
+
+
+.cont-form {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Hace que el contenedor ocupe el 100% de la altura de la ventana */
+}
+
+.hijo{
+
+    height: 550px;
+    width: 450px; /* Ajusta el ancho del formulario según sea necesario */
+    padding: 10px; /* Añade espaciado alrededor del formulario */
+    /*background-color: rgba(169, 136, 221, 0.8);*/
+    background-color: rgb(174, 170, 174);
+    border-radius: 10%;
+    box-shadow: 7px 13px 37px #000;
+    
+}
+.hijo h3
+{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+
+}
+
+.hijo p a{
+    color: blue;
+    text-align: center;
+}
+
+.hijo a:hover {
+    text-decoration: underline;
+  }
+
+.class-email
+{
+    margin-top: 1em;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color:rgb(145, 99, 231);
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.class-pass{
+    margin-top: 1em;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color:rgb(145, 99, 231);
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+::placeholder
+{
+    color: #05060b;
+}
+.button{
+
+    margin-top: 1em;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background: radial-gradient(circle, rgb(117, 49, 142) 0%, #4a5e9e 100%);
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hijo i{
+    color: #000;
+}
+
+#togglePassword{
+
+    background-color: rgb(154, 154, 156);
+    border: 1px solid #000;
+}
+
+.alerta{
+
+    color: rgb(106, 2, 2);
+    font-size:1.2em;
+    text-align: center;
+
+}
