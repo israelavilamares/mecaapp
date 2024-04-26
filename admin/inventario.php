@@ -75,7 +75,7 @@ function usuarioAutenticado() {
                 <br>
                 <input class="entradas" name="nombre"  id="nombre" type="text" placeholder="nombre" minlength="3" required  title="El nombre debe tener al menos 3 caracteres">
                 <input class="entradas" name="cantidad" id="cantidad" type="number" maxlength="11" title="Maximo 11 numeros" placeholder="cantidad" required>
-                <textarea class="entradas" name="descripcion" id="descripcion" type="text" placeholder="descripcion ejem. modelo, color, etc." required></textarea>
+                <textarea class="entradas" name="descripcion" id="descripcion" type="text" placeholder="descripcion ejem. modelo, color, etc."></textarea>
                 <input class="entradas" name="costo" id="costo" type="text" placeholder="costo" minlength="1" title="Minimo 1 caracter"  required>
                 <input class="entradas" name="fecha_entrada" id="fecha_entrada" type="date" minlength="3" title="Minimo 3 caracteres" required>
                 <input class="entradas" name="proveedor" id="proveedor" type="text" minlength="3" title="Minimo 3 caracter" placeholder="proveedor" required>

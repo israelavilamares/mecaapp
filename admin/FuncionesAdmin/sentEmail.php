@@ -1,9 +1,10 @@
 <?php 
 
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 //use PHPMailer\PHPMailer\Exception;
-
+require '/clave';
 //require 'phpmailer/src/Exception.php';
 require 'PHPMailer.php';
 require 'SMTP.php';
